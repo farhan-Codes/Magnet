@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    body{
+        width: 100vw;
+        height:100vh;
+        background-color:rgb(68, 66, 66);
+    }
+    .wrapper{
+        width: 100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        perspective:900px;
+    }
+    #magnet{
+        width:200px;
+        height:100px;
+        background:linear-gradient(45deg,rgb(39, 126, 193),white);
+        border-radius:50px;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div id="magnet"></div>
+    </div>
+</body>
+</html>
